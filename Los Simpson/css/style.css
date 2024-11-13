@@ -29,6 +29,7 @@ body{
 }
 p,h2{
     text-align: center;
+    
 }
 h1:hover {
     color: rgb(245, 245, 245);
@@ -36,6 +37,10 @@ h1:hover {
     transform: rotate(3deg);
 }
 
+h2:hover{
+    transform: rotate(5deg);
+    transition-duration: 1s ;
+}
 
 
 .contenedor-enlaces{
