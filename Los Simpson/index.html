@@ -35,5 +35,23 @@
 <a href="pagina-web-main/ Giuli_ actual/index.html">aca mi otra pagina</a>
 <a href="https://es.wikipedia.org/wiki/Me_before_you_(pel%C3%ADcula_de_2016)">descripcion de mi pelicula favorita</a>
 </div>
+
+<h1>reproducir diferentes audios</h1>
+
+<!--botones-->
+<button onclick="playAudio('./audio/simpson.mp3')">reproducir cancion</button>
+
+<!--script-->
+<script>
+    function playAudio(ubicacion_audio) {
+        const audio = new Audio (ubicacion_audio);
+        audio.play();
+    }
+    confirm("¿queres entrar?")
+    let nombre = prompt("dime tu nombre")
+    alert("hola" + nombre + ", ¡bienvenido!");
+</script>
 </body>
 </html>
+
+
